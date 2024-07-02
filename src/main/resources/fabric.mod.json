@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arms-and-charms",
+	"version": "${version}",
+	"name": "Arms & Charms",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Not You"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/arms-and-charms/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.james.armsandcharms.ArmsAndCharms"
+		],
+		"client": [
+			"net.james.armsandcharms.ArmsAndCharmsClient"
+		],
+		"fabric-datagen": [
+			"net.james.armsandcharms.ArmsAndCharmsDataGenerator"
+		]
+	},
+	"mixins": [
+		"arms-and-charms.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
