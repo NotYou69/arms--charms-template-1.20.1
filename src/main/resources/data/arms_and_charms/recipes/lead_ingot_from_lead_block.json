@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "arms_and_charms:lead_block"
+    }
+  ],
+  "result": {
+    "item": "arms_and_charms:lead_ingot",
+    "count": 9
+  }
+}

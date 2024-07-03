@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "arms_and_charms:silver_block"
+    }
+  ],
+  "result": {
+    "item": "arms_and_charms:silver_ingot",
+    "count": 9
+  }
+}

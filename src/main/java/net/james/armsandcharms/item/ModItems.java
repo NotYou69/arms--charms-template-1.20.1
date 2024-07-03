@@ -17,6 +17,8 @@ public class ModItems {
     public static final Item RAW_SILVER = registerItem("raw_silver", new Item(new FabricItemSettings()));
     public static final Item ZINC_INGOT = registerItem("zinc_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_ZINC = registerItem("raw_zinc", new Item(new FabricItemSettings()));
+    public static final Item BRASS_INGOT = registerItem("brass_ingot", new Item(new FabricItemSettings()));
+    public static final Item SILVER_APPLE = registerItem("silver_apple", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(LEAD_INGOT);
@@ -25,6 +27,7 @@ public class ModItems {
         entries.add(RAW_SILVER);
         entries.add(ZINC_INGOT);
         entries.add(RAW_ZINC);
+        entries.add(BRASS_INGOT);
     }
 
     private static Item registerItem(String name, Item item) {

@@ -16,6 +16,12 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
     public static final Block LEAD_BLOCK = registerBlock("lead_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block SILVER_BLOCK = registerBlock("silver_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block ZINC_BLOCK = registerBlock("zinc_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block BRASS_BLOCK = registerBlock("brass_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block) {

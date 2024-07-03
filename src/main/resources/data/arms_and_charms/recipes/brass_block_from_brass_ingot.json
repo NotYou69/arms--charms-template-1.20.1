@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "arms_and_charms:brass_ingot"
+    }
+  },
+  "result": {
+    "item": "arms_and_charms:brass_block"
+  }
+}

@@ -17,12 +17,18 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.LEAD_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.LEAD_INGOT);
                         entries.add(ModItems.RAW_LEAD);
+                        entries.add(ModBlocks.LEAD_BLOCK);
                         entries.add(ModItems.SILVER_INGOT);
                         entries.add(ModItems.RAW_SILVER);
+                        entries.add(ModBlocks.SILVER_BLOCK);
                         entries.add(ModItems.ZINC_INGOT);
                         entries.add(ModItems.RAW_ZINC);
+                        entries.add(ModBlocks.ZINC_BLOCK);
+                        entries.add(ModItems.BRASS_INGOT);
+                        entries.add(ModBlocks.BRASS_BLOCK);
+                        entries.add(ModItems.SILVER_APPLE);
+
                         entries.add(ModBlocks.SMILE_BLOCK);
-                        entries.add(ModBlocks.LEAD_BLOCK);
 
 
 
