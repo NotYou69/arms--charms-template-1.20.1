@@ -22,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ZINC_INGOT);
                         entries.add(ModItems.RAW_ZINC);
                         entries.add(ModBlocks.SMILE_BLOCK);
+                        entries.add(ModBlocks.LEAD_BLOCK);
+
 
 
                     }).build());

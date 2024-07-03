@@ -13,6 +13,8 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block SMILE_BLOCK = registerBlock("smile_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
+    public static final Block LEAD_BLOCK = registerBlock("lead_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 
