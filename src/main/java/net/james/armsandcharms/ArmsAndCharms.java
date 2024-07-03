@@ -2,6 +2,9 @@ package net.james.armsandcharms;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.james.armsandcharms.block.ModBlocks;
+import net.james.armsandcharms.item.ModItemGroups;
+import net.james.armsandcharms.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +14,10 @@ public class ArmsAndCharms implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 }
